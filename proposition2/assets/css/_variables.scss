@@ -2,3 +2,24 @@ $appleGreen: #94C11F;
 $middleGreen: #50AF2E;  /*for logo and section*/
 $strongGreen: #213F26;  /*for button*/
 $yellow : #DED600;
+$breakpointDesktop: 800px;
+$boldFont: 600;
+$cardTitle: 600, 
+            18px;
+
+
+/*
+
+$breakpoints: (phone: 640px, !default;
+               tablet: 768px, 
+               desktop: 1200px) 
+
+@include media(">phone", "<tablet") {
+}
+
+@include media(">tablet", "<950px") {
+}
+
+
+
+*/
