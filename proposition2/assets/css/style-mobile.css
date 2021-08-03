@@ -1,0 +1,9 @@
+@media (max-width: 700px) {
+  body {
+    font-family: 'Georama', sans-serif;
+    font-size: 16 px;
+    margin: 0;
+  }
+  @use "./variables";
+}
+/*# sourceMappingURL=style-mobile.css.map */
