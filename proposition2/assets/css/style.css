@@ -1,1 +1,36 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@media (min-width: 768px) {
+  /*for logo and section*/
+  /*for button*/
+  /*smartphone*/
+}
+
+@media (min-width: 768px) and (max-width: 750px) {
+  header .containerlogo {
+    width: auto;
+    height: 92px;
+  }
+  header #logobackground {
+    background-color: #50AF2E;
+    opacity: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header #logobackground img {
+    width: 143px;
+    height: auto;
+    margin: auto;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  /*Desktop*/
+}
+/*# sourceMappingURL=style.css.map */

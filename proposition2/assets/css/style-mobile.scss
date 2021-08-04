@@ -1,12 +1,26 @@
+@media (max-width: 750px) {
+
+
+    @import "./_variables";
+    @import "./_header";
+    @import "_footer";
+
+
 body {
 
     font-family: 'Georama', sans-serif;
     font-size: 16 px;
     margin:0 ;
+    top:0;
+}
+
+.container {
+
+    width: 95%;
+    margin: auto;
 }
 
 
-@use "./_variables"
 
 
 
@@ -16,7 +30,4 @@ body {
 
 
 
-
-
-
-
+}

@@ -1,4 +1,72 @@
+@import "_variables";
+
+/*smartphone*/
+@media (max-width: 750px) {
+
 header {
 
-    height: 300vh;
+    .containerlogo{
+
+        width: auto;
+        height: 92px;
+    }
+
+    #logobackground {
+        
+        background-color: $middleGreen;
+        opacity: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        img {
+            width: 143px;
+            height: auto;
+            margin: auto;
+            margin-left: 20px;
+
+        }
+
+
+          }
+
+
+
+
+
 }
+
+
+
+}
+
+
+
+/*Desktop*/
+@media (min-width: 768px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+        
+       
+
+
+
+
+
+
+
+
