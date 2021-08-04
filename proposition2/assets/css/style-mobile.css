@@ -78,7 +78,7 @@
     text-align: center;
     text-decoration: none;
     font-size: 1.3em;
-    margin-left: 80px;
+    margin-left: 65px;
     border-radius: 6px;
     text-transform: uppercase;
     -webkit-transform: translateY(-33px);
@@ -96,6 +96,42 @@
   .container {
     width: 86%;
     margin: auto;
+  }
+  /*Contenu*/
+  /*first section*/
+  .container1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 86%;
+    margin-right: 30px;
+    margin-left: 70px;
+    gap: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container1 .card {
+    width: 255px;
+    height: 403px;
+    background-color: #94C11F;
+    border-radius: 6px;
+  }
+  .container1 .card p {
+    color: white;
+    font-size: 33px;
+    width: 190px;
+    text-align: left;
+    margin: auto;
+    padding: 50px;
+    line-height: 1.4em;
+  }
+  .container1 .card p .c_title {
+    font-weight: 600;
+  }
+  .container1 .yellowbar {
+    display: none;
   }
 }
 /*# sourceMappingURL=style-mobile.css.map */

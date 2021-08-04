@@ -143,7 +143,46 @@
         }
         
 
-            
+      /*First section*/    
+      
+      
+.container {
+
+    width: 550px;
+    margin: auto;
+}
+
+
+.container1 {
+
+    width: 550px;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+
+
+    .card {
+
+        width: 145px;
+        height: 225px;
+        background-color: $appleGreen; 
+        border-radius: 6px;
+    
+    }
+
+
+
+    .yellowbar {
+        width: 550px;
+        display: block;
+        border-bottom: 2px solid $yellow;
+    }
+
+}
+
+
+
     
     
     

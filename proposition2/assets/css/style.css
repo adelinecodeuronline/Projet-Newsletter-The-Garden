@@ -76,6 +76,7 @@
     height: 51px;
     margin-top: -140px;
     margin-left: 210px;
+    /*First section*/
   }
   #linksbackground ul {
     list-style: none;
@@ -89,6 +90,33 @@
     text-decoration: none;
     color: white;
     margin-right: 16px;
+  }
+  #linksbackground .container {
+    width: 550px;
+    margin: auto;
+  }
+  #linksbackground .container1 {
+    width: 550px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #linksbackground .container1 .card {
+    width: 145px;
+    height: 225px;
+    background-color: #94C11F;
+    border-radius: 6px;
+  }
+  #linksbackground .container1 .yellowbar {
+    width: 550px;
+    display: block;
+    border-bottom: 2px solid #DED600;
   }
 }
 /*# sourceMappingURL=style.css.map */
