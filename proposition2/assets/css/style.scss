@@ -1,6 +1,35 @@
-@media (min-width: 768px) {
+@media (min-width: 500px) {
 
-@import "_header";
+    .containerlogo {
+
+        width: 145px;
+        height: 121px;
+       
+    
+
+    #logobackground {
+        
+        background-color: $middleGreen50;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+
+    }
+
+
+    #linksbackground {
+
+        display: inline-block;
+    }
+
+
+    #pictosnav {
+
+        display: none;
+    }
+
 
 
 
@@ -34,3 +63,4 @@
 
 
 
+}

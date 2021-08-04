@@ -1,4 +1,4 @@
-@media (max-width: 750px) {
+@media (min-width: 300px) {
 
 
     @import "./_variables";
@@ -16,7 +16,7 @@ body {
 
 .container {
 
-    width: 95%;
+    width: 86%;
     margin: auto;
 }
 
