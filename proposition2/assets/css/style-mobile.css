@@ -1,4 +1,4 @@
-@media (min-width: 300px) {
+@media (max-width: 600px) {
   /*for logo and section*/
   /*for button*/
   /*for logo and section*/
@@ -9,7 +9,7 @@
     /*header section tondeuse*/
   }
   header .containerlogo {
-    width: auto;
+    width: 137vw;
     height: 92px;
   }
   header #pictosnav ul {
@@ -56,12 +56,16 @@
   header h1 {
     margin-top: 60px;
     color: #213F26;
+    width: 300px;
+    line-height: 0.9em;
   }
   header p {
     color: #213F26;
     white-space: pre-line;
-    font-size: 19.5px;
-    width: 80%;
+    font-size: 1.6em;
+    width: 300px;
+    margin-top: -20px;
+    line-height: 1em;
   }
   header p #bold {
     font-weight: 600;
@@ -70,11 +74,11 @@
     display: table;
     background-color: #213F26;
     color: white;
-    padding: 13px 50px;
+    padding: 13px 55px;
     text-align: center;
     text-decoration: none;
     font-size: 1.3em;
-    margin: auto;
+    margin-left: 80px;
     border-radius: 6px;
     text-transform: uppercase;
     -webkit-transform: translateY(-33px);

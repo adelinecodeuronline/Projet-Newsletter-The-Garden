@@ -1,27 +1,105 @@
-@media (min-width: 500px) {
+@media (min-width: 1200px) {   /*Desktop version*/
+
+
+    @import "_variables";
+
+    body {
+
+        font-family: 'Georama', sans-serif;
+        font-size: 16 px;
+        margin:0 ;
+        top:0;
+    }
+
+
+
+/*header*/
+
+    .container {
+
+        width: 550px;
+        margin: auto;
+
+
+        
+        /*header section tondeuse*/
+     
+        #tondeuse {
+           display: absolute;
+            width: 490px;
+            height: auto;
+            margin-left: -50px;
+            margin-top: -100px;
+                         
+            }
+
+            h1 {
+                padding-top: 50px;
+                margin-top: 50px;
+                width: 319px;
+                color: $strongGreen;
+                margin-left: 210px;
+                line-height: 0.9em;
+
+                               
+            }
+            
+            p {
+                                
+                width: 319px;
+                color: $strongGreen;
+                margin-top: -20px;
+                margin-left: 210px;
+
+                #bold {
+                    font-weight: $boldFont;
+                }
+            }
+
+
+            .btn {
+                display: table;
+                background-color: $strongGreen;
+                color: white;
+                padding: $padding;
+                text-align: center;
+                text-decoration: none;
+                font-size: 1em;
+                margin-left: 280px;
+                border-radius: 6px;
+                text-transform: uppercase;
+                transform: translateY(-303px);
+            
+                }
+          
+
+        }
+
 
     .containerlogo {
 
-        width: 145px;
-        height: 121px;
+        width: 550px;
+        margin: auto;
+    }
        
     
 
     #logobackground {
         
         background-color: $middleGreen50;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 145px;
+        height: 121px;
+        margin-left: 350px;
+
         
+        #logo {
+            width: 137px;
+            height: auto;
+                   
+        
+        }
 
 
-    }
-
-
-    #linksbackground {
-
-        display: inline-block;
     }
 
 
@@ -32,6 +110,70 @@
 
 
 
+    #linksbackground {
+
+        display: block;
+        background-color: $appleGreen;
+        width: 346px;
+        height: 51px;
+        margin-top: -140px;
+        margin-left: 210px;
+
+
+        ul {
+            list-style: none;
+            margin-left: 60px;
+
+            li {     
+
+                display: inline-block;
+                margin-top: 17px;
+                
+
+            a{
+
+            text-decoration: none;
+            color: white;
+            margin-right: 16px;
+            
+            }
+
+        }
+
+        }
+        
+
+            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+
+
+
 
 
 
@@ -63,4 +205,3 @@
 
 
 
-}
