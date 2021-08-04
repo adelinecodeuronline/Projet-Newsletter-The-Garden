@@ -137,6 +137,7 @@
             margin-right: 16px;
             
             }
+        }
 
         }
 
@@ -160,56 +161,155 @@
     display: flex;
     gap: 40px;
     flex-direction: row;
+ 
+
+}
+
+main {
+.card {
+
+    width: 145px;
+    height: 225px;
+    background-color: $appleGreen; 
+    border-radius: 6px;
+    transform: translateY(-120px);
+ 
 
 
-    .card {
+    p {
 
-        width: 145px;
-        height: 225px;
-        background-color: $appleGreen; 
-        border-radius: 6px;
+        color: white;
+        font-size: 18px;
+        width: 100px;
+        text-align: left;
+        margin: auto;
+        padding: 30px;
+        line-height: 1.2em;
+        margin-top: 20px;
+
+        .c_title {
+
+            font-weight: $boldFont;
+        }
     
     }
 
-
-
-    .yellowbar {
-        width: 550px;
-        display: block;
-        border-bottom: 2px solid $yellow;
-    }
+}
 
 }
 
 
 
+.yellowbar {
+    width: 550px;
+    display: block;
+    border-bottom: 2px solid $yellow;
+    margin: auto;
+    transform: translateY(-60px);
+}
+
+
+
+
+/*Second section*/    
+
+.container2 {
+
+width: 550px;
+display: flex;
+
+
+#pricebackground {
+
+    background-color: $middleGreen50;
+    width: 168px;
+    height: 121px;
+    text-align: center;
+    margin-left: 410px;
+    margin-top: -61px;
+    padding: 0 30px;
+
+    h2 {
+        font-size: 30px;
+
+        #oldprice {
+        text-decoration :line-through;
+        font-size: 18px;
+        font-weight: 300;
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        }
     }
+
+
+    
+
+#carte {
+
+    margin-left: 550px;
+    transform: translateY(300px);
+    width: auto;
+}
+
+}
+
+
+#textecarte {
+ transform: translateY(100px);
+ margin-right: 340px;
+ margin-left: -480px;
+ margin-bottom: 100px;
+ color: $strongGreen;
+
+}
+
+
+
+}
+
+
+
+/*Third section*/ 
+
+#bar2 {
+
+    margin-top: 100px;
+}
+
+.container3 {
+
+width: 550px;
+height: 700px;
+margin: auto;
+margin-top: 100px;
+
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 

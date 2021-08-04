@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="45.501" height="32.568" viewBox="0 0 45.501 32.568">
+  <g id="youtube" transform="translate(0.001 -3)">
+    <path id="Tracé_58" data-name="Tracé 58" d="M43.59,8.785A5.5,5.5,0,0,0,39.754,4.83c-3.4-.83-17-.83-17-.83s-13.6,0-17,.91A5.5,5.5,0,0,0,1.91,8.864,57.339,57.339,0,0,0,1,19.323a57.339,57.339,0,0,0,.91,10.539,5.5,5.5,0,0,0,3.836,3.8c3.4.91,17,.91,17,.91s13.6,0,17-.91A5.5,5.5,0,0,0,43.59,29.7a57.339,57.339,0,0,0,.91-10.38,57.34,57.34,0,0,0-.91-10.539Z" transform="translate(0)" fill="none" stroke="#50af2e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Tracé_59" data-name="Tracé 59" d="M9.75,21.411l11.369-6.466L9.75,8.48Z" transform="translate(8.551 4.378)" fill="none" stroke="#50af2e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

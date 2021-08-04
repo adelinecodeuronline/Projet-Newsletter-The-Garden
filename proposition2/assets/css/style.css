@@ -76,7 +76,6 @@
     height: 51px;
     margin-top: -140px;
     margin-left: 210px;
-    /*First section*/
   }
   #linksbackground ul {
     list-style: none;
@@ -91,11 +90,12 @@
     color: white;
     margin-right: 16px;
   }
-  #linksbackground .container {
+  /*First section*/
+  .container {
     width: 550px;
     margin: auto;
   }
-  #linksbackground .container1 {
+  .container1 {
     width: 550px;
     margin: auto;
     display: -webkit-box;
@@ -107,16 +107,82 @@
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  #linksbackground .container1 .card {
+  main .card {
     width: 145px;
     height: 225px;
     background-color: #94C11F;
     border-radius: 6px;
+    -webkit-transform: translateY(-120px);
+            transform: translateY(-120px);
   }
-  #linksbackground .container1 .yellowbar {
+  main .card p {
+    color: white;
+    font-size: 18px;
+    width: 100px;
+    text-align: left;
+    margin: auto;
+    padding: 30px;
+    line-height: 1.2em;
+    margin-top: 20px;
+  }
+  main .card p .c_title {
+    font-weight: 600;
+  }
+  .yellowbar {
     width: 550px;
     display: block;
     border-bottom: 2px solid #DED600;
+    margin: auto;
+    -webkit-transform: translateY(-60px);
+            transform: translateY(-60px);
+  }
+  /*Second section*/
+  .container2 {
+    width: 550px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container2 #pricebackground {
+    background-color: rgba(80, 175, 46, 0.1);
+    width: 168px;
+    height: 121px;
+    text-align: center;
+    margin-left: 410px;
+    margin-top: -61px;
+    padding: 0 30px;
+  }
+  .container2 #pricebackground h2 {
+    font-size: 30px;
+  }
+  .container2 #pricebackground h2 #oldprice {
+    text-decoration: line-through;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .container2 #pricebackground #carte {
+    margin-left: 550px;
+    -webkit-transform: translateY(300px);
+            transform: translateY(300px);
+    width: auto;
+  }
+  .container2 #textecarte {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+    margin-right: 340px;
+    margin-left: -480px;
+    margin-bottom: 100px;
+    color: #213F26;
+  }
+  /*Third section*/
+  #bar2 {
+    margin-top: 100px;
+  }
+  .container3 {
+    width: 550px;
+    height: 700px;
+    margin: auto;
+    margin-top: 100px;
   }
 }
 /*# sourceMappingURL=style.css.map */
