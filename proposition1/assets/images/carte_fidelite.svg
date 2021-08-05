@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="340" height="262" viewBox="0 0 340 262">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="340" height="262" transform="translate(0 0)"/>
+    </clipPath>
+  </defs>
+  <g id="carte_fidelite" transform="translate(-8.5 4.2)">
+    <g id="carte_fidelite-2" data-name="carte_fidelite" transform="translate(8.5 -4.2)" clip-path="url(#clip-path)">
+      <path id="Background" d="M22.723,53.5H341.064a7.083,7.083,0,0,1,7.223,6.935v174.45a7.083,7.083,0,0,1-7.223,6.935H22.723a7.083,7.083,0,0,1-7.223-6.935V60.435A7.083,7.083,0,0,1,22.723,53.5Z" transform="translate(-11.863 -8.145)" fill="#231f20" stroke="#231f20" stroke-miterlimit="10" stroke-width="1"/>
+      <text id="The" transform="translate(18 118)" fill="#6b6e6b" font-size="68" font-family="Arial-BoldMT, Arial" font-weight="700" letter-spacing="0.006em"><tspan x="0" y="0">The</tspan></text>
+      <text id="Garden" transform="translate(18 205)" fill="#6b6e6b" font-size="81" font-family="Arial-BoldMT, Arial" font-weight="700" letter-spacing="0.006em"><tspan x="0" y="0">Garden</tspan></text>
+      <text id="FIDÉLITÉ" transform="translate(194 81)" fill="#fff" font-size="28" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">FIDÉLITÉ</tspan></text>
+      <rect id="logo" width="33.898" height="25.596" transform="translate(282.948 47.408)" fill="none"/>
+    </g>
+  </g>
+</svg>

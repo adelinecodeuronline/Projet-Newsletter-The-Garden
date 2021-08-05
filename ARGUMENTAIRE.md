@@ -25,3 +25,5 @@ Dans les sections : Le tarif remisé ainsi que la carte motivent la personne à 
 Viennent ensuite les astuces, rédigées de sorte à ce que les produits associés se devinent en second lieu, tout en respectant le point de vue de cette proposition.
 Pour finir, les parties livraison et d'accès à la désinscription ou à l'affichage de la newsletter se veulent claires et rassurantes (le footer fait ainsi apparaître les mentions obligatoires).
 
+- Vues Desktop et smartphone : https://adelinecodeuronline.github.io/Projet-Newsletter-The-Garden/proposition2
+
