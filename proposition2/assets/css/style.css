@@ -60,7 +60,7 @@
     background-color: rgba(80, 175, 46, 0.1);
     width: 145px;
     height: 121px;
-    margin-left: 350px;
+    margin-left: 590px;
   }
   #logobackground #logo {
     width: 137px;
@@ -148,7 +148,7 @@
     width: 168px;
     height: 121px;
     text-align: center;
-    margin-left: 410px;
+    margin-left: 710px;
     margin-top: -61px;
     padding: 0 30px;
   }
@@ -174,6 +174,9 @@
     margin-bottom: 100px;
     color: #213F26;
   }
+  .container2 #textecarte #bold {
+    font-size: 600;
+  }
   /*Third section*/
   #bar2 {
     margin-top: 100px;
@@ -183,6 +186,40 @@
     height: 700px;
     margin: auto;
     margin-top: 100px;
+  }
+  .container3 #tipstitle {
+    margin-top: -110px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #213F26;
+    text-align: center;
+  }
+  .container3 #articlesbackground {
+    background-color: rgba(80, 175, 46, 0.1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    height: 365px;
+  }
+  .container3 #articlesbackground .articles {
+    margin-right: 30px;
+    margin-top: 40px;
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+  }
+  .container3 #articlesbackground p {
+    margin: auto;
+    padding-top: 15px;
+    width: 100px;
+    text-align: center;
+    color: #213F26;
+  }
+  .container3 #bar3 {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */

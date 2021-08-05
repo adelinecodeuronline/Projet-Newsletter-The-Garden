@@ -134,5 +134,76 @@
     display: none;
   }
   /*Second section*/
+  .container2 {
+    background-color: #DED600;
+    height: 550px;
+  }
+  .container2 #pricebackground {
+    background-color: #F1EE99;
+    width: 200px;
+    height: 157px;
+    text-align: center;
+    margin: auto;
+    color: #213F26;
+  }
+  .container2 #pricebackground h2 {
+    padding-top: 35px;
+    font-size: 37px;
+  }
+  .container2 #pricebackground h2 #oldprice {
+    text-decoration: line-through;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .container2 #carte {
+    margin-left: -34px;
+    width: auto;
+    margin-top: 30px;
+  }
+  .container2 #textecarte {
+    text-align: center;
+    margin: auto;
+    color: #213F26;
+    width: 95%;
+  }
+  .container2 #textecarte #bold {
+    font-size: 600;
+  }
+  /*Third section*/
+  #bar3 {
+    display: block;
+    border-bottom: 2px solid #DED600;
+    margin: auto;
+    margin-top: 5px;
+    width: 120px;
+  }
+  .container3 {
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .container3 #tipstitle {
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #213F26;
+    text-align: center;
+  }
+  .container3 .articles {
+    text-align: center;
+    margin-top: 60px;
+  }
+  .container3 p {
+    margin: auto;
+    padding-top: 15px;
+    width: 100px;
+    text-align: center;
+    color: #213F26;
+  }
 }
 /*# sourceMappingURL=style-mobile.css.map */

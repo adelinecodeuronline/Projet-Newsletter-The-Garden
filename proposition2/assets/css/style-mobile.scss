@@ -82,9 +82,108 @@ p {
 /*Second section*/
 
 
+.container2 {
+
+    background-color: $yellow;
+    height: 550px;
+
+    #pricebackground {
+
+        background-color: #F1EE99;
+        width: 200px;
+        height: 157px;
+        text-align: center;
+        margin: auto;
+        color: $strongGreen;
+
+
+        h2 {
+            padding-top: 35px;
+            font-size: 37px;
+    
+            #oldprice {
+            text-decoration :line-through;
+            font-size: 20px;
+            font-weight: 300;
+        
+            }
+        }
+        
+    }
+
+
+    #carte {
+
+        margin-left: -34px;
+        width: auto;
+        margin-top: 30px;
+    }
+
+    #textecarte {
+       text-align: center;
+       margin: auto;
+       color: $strongGreen;
+       width: 95%;
+       
+
+       #bold {
+
+        font-size: $boldFont;
+     }
+       
+       }
+
+}
 
 
 
+/*Third section*/
+
+
+#bar3 {
+    display: block;
+    border-bottom: 2px solid $yellow;
+    margin: auto;
+    margin-top: 5px;
+    width: 120px;
+}
+
+
+.container3 {
+
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+
+
+    #tipstitle {
+        margin-top: 50px;
+        font-weight: $boldFont;
+        font-size: 18px;
+        color: $strongGreen;
+        text-align: center;
+    }
+
+
+    .articles {
+
+        text-align: center;
+        margin-top: 60px;
+    }
+    
+    
+    p {
+    
+        margin: auto;
+        padding-top: 15px;
+        width: 100px;
+        text-align: center;
+        color: $strongGreen;
+    }
+        
+    
+
+}
 
 
 
