@@ -12,13 +12,13 @@
   /*nav bar*/
   nav {
     background-color: #EEEEEE;
-    height: 9vh;
+    height: 11vh;
     width: auto;
   }
   nav #logo {
     text-align: left;
     margin-left: 20px;
-    margin-top: 5px;
+    margin-top: 6px;
   }
   nav ul {
     list-style: none;
@@ -32,6 +32,28 @@
   /*header*/
   header {
     background-color: #A5A5A5;
+    padding-bottom: 4em;
+  }
+  header #pricebackground {
+    background-color: rgba(255, 255, 255, 0.8);
+    -webkit-transform: translateX(14.2em);
+            transform: translateX(14.2em);
+    height: 10vh;
+    width: 45vw;
+  }
+  header #pricebackground #through {
+    -webkit-text-decoration-line: line-through;
+            text-decoration-line: line-through;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  header #pricebackground p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5em;
+    white-space: pre-line;
+    padding-top: 0.4em;
+    line-height: 0.9em;
   }
   header #tondeuse {
     margin-top: -8em;
@@ -61,6 +83,130 @@
   }
   header #caracteristiques h2 {
     font-weight: 600;
+    margin-bottom: -1em;
+  }
+  /*offer section*/
+  #offre {
+    background-color: #231F20;
+    color: white;
+    font-size: 1.5em;
+    white-space: pre-line;
+    padding-left: 0.9em;
+    height: 15vh;
+  }
+  #offre p {
+    margin-top: -0.3em;
+  }
+  /*card section*/
+  #carte img {
+    margin-left: 2.2em;
+  }
+  #carte #btn {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    background-color: #44443F;
+    padding: 0.5em 3.5em;
+    border-radius: 1em;
+    text-align: center;
+    margin-left: 5em;
+  }
+  #carte p {
+    text-align: center;
+    color: #E0A315;
+    font-size: 0.9em;
+    margin-top: 2em;
+  }
+  #carte p a {
+    text-decoration: none;
+    color: #E0A315;
+  }
+  /*description section*/
+  #descriptiftondeuse {
+    background-color: #A5A5A5;
+    white-space: pre-line;
+  }
+  #descriptiftondeuse h2 {
+    color: #44443F;
+    margin-bottom: -1em;
+    margin-left: 1em;
+  }
+  #descriptiftondeuse p {
+    color: white;
+    margin-left: 1em;
+    font-size: 1.15em;
+  }
+  /*articles section*/
+  #articles p {
+    color: #5E5F5E;
+    margin-left: 1em;
+  }
+  #separation {
+    background-color: #44443F;
+    height: 2vh;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+  /*shipping section*/
+  #livraison {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    height: 790px;
+  }
+  #livraison #pictos {
+    display: inline-block;
+  }
+  #livraison #pictos img {
+    margin-right: 150px;
+    margin-bottom: 9em;
+    margin-left: 50px;
+  }
+  #livraison #texteoptions {
+    display: inline-block;
+    margin-left: 210px;
+    width: 120px;
+    -webkit-transform: translateY(-900px);
+            transform: translateY(-900px);
+    white-space: pre-line;
+  }
+  #livraison #texteoptions p {
+    margin-bottom: 2.6em;
+  }
+  #livraison #texteoptions .textestyle {
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+  /*footer*/
+  footer {
+    background-color: #44443F;
+    height: 350px;
+  }
+  footer p {
+    text-align: center;
+    color: white;
+    white-space: pre-line;
+    padding-top: 2em;
+  }
+  footer p a {
+    text-decoration: none;
+    color: white;
+  }
+  footer #socialmedia {
+    display: inline-block;
+    -webkit-transform: translateX(6em);
+            transform: translateX(6em);
+  }
+  footer #socialmedia img {
+    margin-right: 3em;
   }
 }
 /*# sourceMappingURL=style-mobile.css.map */
