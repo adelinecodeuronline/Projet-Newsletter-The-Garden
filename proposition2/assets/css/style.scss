@@ -89,7 +89,7 @@
         background-color: $middleGreen50;
         width: 145px;
         height: 121px;
-        margin-left: 590px;
+        margin-left: 390px;
 
         
         #logo {
@@ -225,9 +225,10 @@ display: flex;
     width: 168px;
     height: 121px;
     text-align: center;
-    margin-left: 710px;
+    margin-left: 410px;
     margin-top: -61px;
     padding: 0 30px;
+    color: $strongGreen;
 
     h2 {
         font-size: 30px;
@@ -308,7 +309,7 @@ text-align: center;
 
 .articles {
 
-    margin-right: 30px;
+    margin-right: 25px;
     margin-top: 40px;
     transform: translateX(20px);
 }
@@ -381,12 +382,17 @@ p {
    width: 550px;
    margin: auto;
    height: 500px;
+   display: flex;
+   flex-direction: column;
+
+  
 
 
    p {
 
     transform: translateY(80px);
     text-align: center;
+    color: #5A5A5A;
    }
 
 
@@ -394,18 +400,13 @@ p {
 
     text-decoration: none;
     color: $appleGreen;
-   }
-
 
    }
 
-#yellowbar1 {
-   
-    display: block;
-    border-bottom: 2px solid $yellow;
-    margin: auto;
-  
-  }
+
+   }
+
+
 
 
   #socialmedia {
@@ -420,10 +421,25 @@ p {
     
     
      }
+
+
+     
+   #affichage {
+
+    transform: translateY(80px);
+    text-align: center;
+   } 
     
     
+   #yellowbar1 {
+   
+    display: block;
+    border-bottom: 2px solid $yellow;
+    margin: auto;
+   
     
-    
+  
+  } 
     
     
     

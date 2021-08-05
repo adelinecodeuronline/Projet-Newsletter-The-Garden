@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 415px) {
   /*for logo and section*/
   /*for button*/
   /*for logo and section*/
@@ -9,7 +9,7 @@
     /*header section tondeuse*/
   }
   header .containerlogo {
-    width: 137vw;
+    width: auto;
     height: 92px;
   }
   header #pictosnav ul {
@@ -121,6 +121,9 @@
   #socialmedia img {
     margin-right: 30px;
   }
+  #yellowbar1 {
+    display: none;
+  }
   body {
     font-family: 'Georama', sans-serif;
     font-size: 16 px;
@@ -151,6 +154,8 @@
     height: 403px;
     background-color: #94C11F;
     border-radius: 6px;
+    margin-left: 4%;
+    margin-right: 5%;
   }
   .container1 .card p {
     color: white;

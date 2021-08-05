@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 415px) {
 
 
     @import "./_variables";
@@ -43,6 +43,8 @@ body {
    height: 403px;
    background-color: $appleGreen; 
    border-radius: 6px;
+   margin-left: 4%;
+   margin-right: 5%;
   
 
 p {
