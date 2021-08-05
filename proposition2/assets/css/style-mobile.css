@@ -268,7 +268,7 @@
             transform: translateX(40px);
   }
   .container4 .modalites #bold {
-    font-size: 600;
+    font-weight: 600;
   }
 }
 /*# sourceMappingURL=style-mobile.css.map */

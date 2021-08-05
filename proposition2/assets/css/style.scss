@@ -201,7 +201,7 @@ main {
 
 
 .yellowbar {
-    width: 550px;
+    width: 520px;
     display: block;
     border-bottom: 2px solid $yellow;
     margin: auto;
@@ -219,13 +219,14 @@ width: 550px;
 display: flex;
 
 
+
 #pricebackground {
 
     background-color: $middleGreen50;
     width: 168px;
     height: 121px;
     text-align: center;
-    margin-left: 410px;
+    margin-left: 430px;
     margin-top: -61px;
     padding: 0 30px;
     color: $strongGreen;
@@ -260,17 +261,25 @@ display: flex;
  margin-left: -480px;
  margin-bottom: 100px;
  color: $strongGreen;
+ 
 
+p {
  #bold {
 
-    font-size: $boldFont;
+    font-weight: $boldFont;
  }
 
 }
 
+ 
+
+}
+
 
 
 }
+
+
 
 
 
@@ -358,10 +367,14 @@ p {
         margin: auto;
         transform: translateX(40px);
 
+        p{
         #bold {
 
-            font-size: $boldFont;
+            font-weight: $boldFont;
          }
+        white-space: pre-line;
+
+        }
     }
 
 
@@ -371,12 +384,9 @@ p {
     
  /*Footer*/   
 
- #bar4 {
+ 
 
-    display: none;
- }
-
-
+   
  .container5 {
     
    width: 550px;
@@ -384,8 +394,24 @@ p {
    height: 500px;
    display: flex;
    flex-direction: column;
+ 
 
-  
+   #bar4 {
+    display: block;
+    border-bottom: 2px solid $yellow;
+    margin: auto;
+    width: 520px;
+    transform: translateY(80px);
+    
+   
+}
+
+
+#copyrightbackground {
+
+    background-color: $middleGreen50;
+    height: 400px;
+}
 
 
    p {
@@ -393,6 +419,7 @@ p {
     transform: translateY(80px);
     text-align: center;
     color: #5A5A5A;
+    
    }
 
 
@@ -426,21 +453,12 @@ p {
      
    #affichage {
 
-    transform: translateY(80px);
+    transform: translateY(-150px);
     text-align: center;
    } 
     
     
-   #yellowbar1 {
-   
-    display: block;
-    border-bottom: 2px solid $yellow;
-    margin: auto;
-   
-    
   
-  } 
-    
     
     
     
