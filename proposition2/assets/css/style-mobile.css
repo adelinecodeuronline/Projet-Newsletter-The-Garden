@@ -84,8 +84,42 @@
     -webkit-transform: translateY(-33px);
             transform: translateY(-33px);
   }
+  /*Footer*/
   footer {
-    background-color: red;
+    padding: 30px;
+    background-color: rgba(80, 175, 46, 0.1);
+  }
+  footer .container5 {
+    margin: auto;
+  }
+  footer p {
+    color: #5A5A5A;
+    text-align: center;
+  }
+  footer p #green {
+    color: #50AF2E;
+  }
+  footer #bar4 {
+    display: block;
+    border-bottom: 2px solid #DED600;
+    margin: auto;
+    margin-top: 5px;
+    width: 120px;
+  }
+  footer a {
+    text-decoration: none;
+    color: #50AF2E;
+  }
+  footer #affichage {
+    display: none;
+  }
+  #socialmedia {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  #socialmedia img {
+    margin-right: 30px;
   }
   body {
     font-family: 'Georama', sans-serif;
@@ -204,6 +238,32 @@
     width: 100px;
     text-align: center;
     color: #213F26;
+  }
+  /*Fourth section*/
+  .container4 {
+    height: 650px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #50AF2E;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container4 .modalites {
+    width: 150px;
+    color: white;
+    padding-right: 100px;
+    text-align: center;
+    margin: auto;
+    -webkit-transform: translateX(40px);
+            transform: translateX(40px);
+  }
+  .container4 .modalites #bold {
+    font-size: 600;
   }
 }
 /*# sourceMappingURL=style-mobile.css.map */

@@ -1,4 +1,63 @@
+/*Footer*/
+
 footer {
 
-    background-color: red;
+    
+    padding: 30px;
+    background-color: $middleGreen50;
+
+
+   .container5 {
+
+    margin: auto;
+   
+   }
+
+   p {
+
+    color:#5A5A5A;
+    text-align: center;
+
+    #green {
+
+        color: $middleGreen;
+    }
+   }
+
+   #bar4 {
+    display: block;
+    border-bottom: 2px solid $yellow;
+    margin: auto;
+    margin-top: 5px;
+    width: 120px;
+}
+
+a{
+
+    text-decoration: none;
+    color: $middleGreen;
+
+    
+}
+
+#affichage {
+
+    display: none;
+}
+
+
+}
+
+
+#socialmedia {
+
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  
+
+    img {
+
+        margin-right: 30px;
+    }
 }

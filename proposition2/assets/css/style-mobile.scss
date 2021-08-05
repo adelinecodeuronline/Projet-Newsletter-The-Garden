@@ -186,8 +186,36 @@ p {
 }
 
 
+/*Fourth section*/ 
+    
+.container4 {
+
+    height: 650px;
+    margin: auto;
+    margin-top: 100px;  
+    background-color: $middleGreen;
+    display: flex;
+    flex-direction: column;
 
 
+    .modalites {
+
+        width: 150px;
+        color: white;
+        padding-right: 100px;
+        text-align: center;
+        margin: auto;
+        transform: translateX(40px);
+
+        #bold {
+
+            font-size: $boldFont;
+         }
+    }
+
+
+
+}
 
 
 
