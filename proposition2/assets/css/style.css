@@ -284,6 +284,7 @@
             transform: translateY(80px);
     text-align: center;
     color: #5A5A5A;
+    white-space: pre-line;
   }
   .container5 a {
     text-decoration: none;
