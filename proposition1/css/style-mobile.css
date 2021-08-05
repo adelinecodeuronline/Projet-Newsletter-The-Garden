@@ -6,5 +6,61 @@
     bottom: 0;
     font-size: 1em;
   }
+  .container {
+    width: 95%;
+  }
+  /*nav bar*/
+  nav {
+    background-color: #EEEEEE;
+    height: 9vh;
+    width: auto;
+  }
+  nav #logo {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+  nav ul {
+    list-style: none;
+    margin-top: -40px;
+    text-align: right;
+  }
+  nav ul li {
+    display: inline-block;
+    margin-right: 1.25em;
+  }
+  /*header*/
+  header {
+    background-color: #A5A5A5;
+  }
+  header #tondeuse {
+    margin-top: -8em;
+    margin-left: 1.7em;
+  }
+  header #nouveaute {
+    text-align: right;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 0.6em;
+    -webkit-transform: translateY(-8em);
+            transform: translateY(-8em);
+    z-index: 30;
+    font-size: 1.3em;
+  }
+  header #caracteristiques {
+    background-color: rgba(255, 255, 255, 0.2);
+    white-space: pre-line;
+    z-index: 20;
+    -webkit-transform: translateY(1.8em);
+            transform: translateY(1.8em);
+    width: 45vw;
+    height: 30vh;
+    margin-left: 1.7em;
+    padding: 0 30px;
+  }
+  header #caracteristiques h2 {
+    font-weight: 600;
+  }
 }
 /*# sourceMappingURL=style-mobile.css.map */

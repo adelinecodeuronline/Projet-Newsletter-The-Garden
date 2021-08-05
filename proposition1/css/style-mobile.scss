@@ -12,6 +12,86 @@ body {
 }
 
 
+.container {
+
+    width: 95%;
+}
+
+
+/*nav bar*/
+
+nav {
+
+    background-color: $lightGrey;
+    height: 9vh;
+    width: auto;
+
+#logo {
+
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 5px;
+
+}
+
+ul {
+
+    list-style: none;
+    margin-top: -40px;
+    text-align: right;
+
+li {
+display: inline-block;
+margin-right: 1.25em;
+
+}
+
+}
+
+}
+
+
+/*header*/
+
+header {
+background-color: $middleGrey;
+
+#tondeuse {
+
+    margin-top: -8em;
+    margin-left: 1.7em;
+}
+
+#nouveaute {
+
+    text-align: right;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 0.6em;
+    transform: translateY(-8em);
+    z-index: 30;
+    font-size: 1.3em;
+}
+
+#caracteristiques {
+
+    background-color: $white20;
+    white-space: pre-line;
+    z-index: 20;
+    transform: translateY(1.8em);
+    width: 45vw;
+    height: 30vh;
+    margin-left: 1.7em;
+    padding: 0 30px;
+
+
+    h2 {
+        font-weight: 600;
+    }
+}
+
+}
 
 
 
