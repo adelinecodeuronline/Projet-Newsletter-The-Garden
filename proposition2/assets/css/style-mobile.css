@@ -31,11 +31,9 @@
   }
   header #logobackground {
     background-color: rgba(80, 175, 46, 0.1);
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     /*justify-content: center;
-        align-items: center;*/
+    align-items: center;*/
   }
   header #logobackground #logo {
     width: 143px;
@@ -77,9 +75,9 @@
     margin-left: 65px;
     border-radius: 6px;
     text-transform: uppercase;
-    -webkit-transform: translateY(-33px);
-            transform: translateY(-33px);
+    transform: translateY(-33px);
   }
+
   /*Footer*/
   footer {
     padding: 30px;
@@ -110,6 +108,7 @@
   footer #affichage {
     display: none;
   }
+
   #socialmedia {
     text-align: center;
     padding-top: 20px;
@@ -118,33 +117,32 @@
   #socialmedia img {
     margin-right: 30px;
   }
+
   #yellowbar1 {
     display: none;
   }
+
   body {
-    font-family: 'Georama', sans-serif;
+    font-family: "Georama", sans-serif;
     font-size: 16 px;
     margin: 0;
     top: 0;
   }
+
   .container {
     width: 86%;
     margin: auto;
   }
+
   /*Contenu*/
   /*first section*/
   .container1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 86%;
     margin-right: 30px;
     margin-left: 70px;
     gap: 50px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .container1 .card {
     width: 255px;
@@ -169,6 +167,7 @@
   .container1 .yellowbar {
     display: none;
   }
+
   /*Second section*/
   .container2 {
     background-color: #DED600;
@@ -205,6 +204,7 @@
   .container2 #textecarte #bold {
     font-size: 600;
   }
+
   /*Third section*/
   #bar3 {
     display: block;
@@ -213,15 +213,11 @@
     margin-top: 5px;
     width: 120px;
   }
+
   .container3 {
     margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+    flex-flow: column;
   }
   .container3 #tipstitle {
     margin-top: 50px;
@@ -241,19 +237,15 @@
     text-align: center;
     color: #213F26;
   }
+
   /*Fourth section*/
   .container4 {
     height: 650px;
     margin: auto;
     margin-top: 100px;
     background-color: #50AF2E;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .container4 .modalites {
     width: 150px;
@@ -261,11 +253,9 @@
     padding-right: 100px;
     text-align: center;
     margin: auto;
-    -webkit-transform: translateX(40px);
-            transform: translateX(40px);
+    transform: translateX(40px);
   }
   .container4 .modalites #bold {
     font-weight: 600;
   }
-}
-/*# sourceMappingURL=style-mobile.css.map */
+}/*# sourceMappingURL=style-mobile.css.map */

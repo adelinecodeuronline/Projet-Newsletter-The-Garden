@@ -1,14 +1,16 @@
 @media (max-width: 415px) {
   body {
-    font-family: 'Georama', sans-serif;
+    font-family: "Georama", sans-serif;
     margin: 0;
     top: 0;
     bottom: 0;
     font-size: 1em;
   }
+
   .container {
     width: 95%;
   }
+
   /*nav bar*/
   nav {
     background-color: #EEEEEE;
@@ -29,6 +31,7 @@
     display: inline-block;
     margin-right: 1.25em;
   }
+
   /*header*/
   header {
     background-color: #A5A5A5;
@@ -36,8 +39,7 @@
   }
   header #pricebackground {
     background-color: rgba(255, 255, 255, 0.8);
-    -webkit-transform: translateX(14.2em);
-            transform: translateX(14.2em);
+    transform: translateX(14.2em);
     height: 10vh;
     width: 45vw;
   }
@@ -65,8 +67,7 @@
     text-transform: uppercase;
     font-weight: 600;
     margin-right: 0.6em;
-    -webkit-transform: translateY(-8em);
-            transform: translateY(-8em);
+    transform: translateY(-8em);
     z-index: 30;
     font-size: 1.3em;
   }
@@ -74,8 +75,7 @@
     background-color: rgba(255, 255, 255, 0.2);
     white-space: pre-line;
     z-index: 20;
-    -webkit-transform: translateY(1.8em);
-            transform: translateY(1.8em);
+    transform: translateY(1.8em);
     width: 45vw;
     height: 30vh;
     margin-left: 1.7em;
@@ -85,6 +85,7 @@
     font-weight: 600;
     margin-bottom: -1em;
   }
+
   /*offer section*/
   #offre {
     background-color: #231F20;
@@ -97,6 +98,7 @@
   #offre p {
     margin-top: -0.3em;
   }
+
   /*card section*/
   #carte img {
     margin-left: 2.2em;
@@ -123,6 +125,7 @@
     text-decoration: none;
     color: #E0A315;
   }
+
   /*description section*/
   #descriptiftondeuse {
     background-color: #A5A5A5;
@@ -138,28 +141,25 @@
     margin-left: 1em;
     font-size: 1.15em;
   }
+
   /*articles section*/
   #articles p {
     color: #5E5F5E;
     margin-left: 1em;
   }
+
   #separation {
     background-color: #44443F;
     height: 2vh;
     margin-bottom: 3em;
     margin-top: 3em;
   }
+
   /*shipping section*/
   #livraison {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-flow: wrap;
-        flex-flow: wrap;
+    flex-direction: column;
+    flex-flow: wrap;
     height: 790px;
   }
   #livraison #pictos {
@@ -174,8 +174,7 @@
     display: inline-block;
     margin-left: 210px;
     width: 120px;
-    -webkit-transform: translateY(-900px);
-            transform: translateY(-900px);
+    transform: translateY(-900px);
     white-space: pre-line;
   }
   #livraison #texteoptions p {
@@ -185,6 +184,7 @@
     font-weight: 600;
     font-size: 1.5em;
   }
+
   /*footer*/
   footer {
     background-color: #44443F;
@@ -202,11 +202,9 @@
   }
   footer #socialmedia {
     display: inline-block;
-    -webkit-transform: translateX(6em);
-            transform: translateX(6em);
+    transform: translateX(6em);
   }
   footer #socialmedia img {
     margin-right: 3em;
   }
-}
-/*# sourceMappingURL=style-mobile.css.map */
+}/*# sourceMappingURL=style-mobile.css.map */

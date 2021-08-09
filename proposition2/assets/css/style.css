@@ -60,7 +60,7 @@
     background-color: rgba(80, 175, 46, 0.1);
     width: 145px;
     height: 121px;
-    margin-left: 650px;
+    transform: translateX(-220px);
   }
   #logobackground #logo {
     width: 137px;
@@ -142,6 +142,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+   transform: translateX(-550px);
   }
   .container2 #pricebackground {
     background-color: rgba(80, 175, 46, 0.1);
@@ -179,8 +180,8 @@
     font-weight: 600;
   }
   #pricebackground {
-    -webkit-transform: translateX(275px);
-            transform: translateX(275px);
+    -webkit-transform: translateX(200px);
+            transform: translateX(200px);
   }
   #carte {
     margin-left: 250px;
@@ -314,4 +315,24 @@
     text-align: center;
   }
 }
-/*# sourceMappingURL=style.css.map */
+
+
+@media (min-width: 1200px) {
+
+  #logobackground {
+   
+   margin-left: 790px;
+   margin-right: -50px;
+  }
+
+  #pricebackground {
+    -webkit-transform: translateX(145px);
+            transform: translateX(145px);
+
+            
+  }
+
+  .container2 {
+      transform: translateX(10px);
+  }
+}
