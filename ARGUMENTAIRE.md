@@ -12,6 +12,9 @@ Police : Georama
 - FORMES | carrées, angulaires
 - CIBLE | essentiellement masculine (majorité rurale - 40/60 ans)
 
+- Vue Desktop : https://adelinecodeuronline.github.io/Projet-Newsletter-The-Garden/proposition1/proposition1_version_web/
+- vue smartphone : https://adelinecodeuronline.github.io/Projet-Newsletter-The-Garden/proposition1
+
 
 ## Proposition 2
 // GREEN | émotion respect de la nature, simplicité d'utilisation, loisir
