@@ -1,7 +1,7 @@
 @media (min-width: 740px) {   /*Desktop version*/
 
 $large-screen: "screen and (min-width: 1200px)";
-$medium-screen: "screen and (min-width: 740)";
+$medium-screen: "screen and (min-width: 740px)";
 
 
     @import "_variables";
@@ -86,16 +86,17 @@ $medium-screen: "screen and (min-width: 740)";
     }*/
        
     
-
+.container {
     #logobackground {
         
         background-color: $middleGreen50;
         width: 145px;
         height: 121px;
+        margin:auto;
         
         /*margin-left: 390px;*/
        
-
+    }
         
         #logo {
             width: 137px;
@@ -287,11 +288,11 @@ p {
 }
 
 /*Condition section promo et logo */
-@if $large-screen {
+/*@if $medium-screen {
    
     #pricebackground {
 
-        transform: translateX(275px); }
+        margin: 390px; }
 
       #carte {
 
@@ -299,8 +300,8 @@ p {
 
         #logobackground {
         
-           margin-left: 640px;}
-} 
+          transform: translateX(160px); }
+} */
 
 }
 
