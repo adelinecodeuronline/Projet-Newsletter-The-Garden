@@ -1,4 +1,7 @@
-@media (min-width: 1200px) {   /*Desktop version*/
+@media (min-width: 740px) {   /*Desktop version*/
+
+$large-screen: "screen and (min-width: 1200px)";
+$medium-screen: "screen and (min-width: 740)";
 
 
     @import "_variables";
@@ -17,7 +20,7 @@
 
     .container {
 
-        width: 550px;
+        width: 55%;
         margin: auto;
 
 
@@ -76,11 +79,11 @@
         }
 
 
-    .containerlogo {
+    /*.containerlogo {
 
         width: 550px;
         margin: auto;
-    }
+    }*/
        
     
 
@@ -89,7 +92,9 @@
         background-color: $middleGreen50;
         width: 145px;
         height: 121px;
-        margin-left: 390px;
+        
+        /*margin-left: 390px;*/
+       
 
         
         #logo {
@@ -161,6 +166,7 @@
     display: flex;
     gap: 40px;
     flex-direction: row;
+   
  
 
 }
@@ -220,13 +226,14 @@ display: flex;
 
 
 
+
 #pricebackground {
 
     background-color: $middleGreen50;
     width: 168px;
     height: 121px;
     text-align: center;
-    margin-left: 430px;
+    margin-left: 160px;
     margin-top: -61px;
     padding: 0 30px;
     color: $strongGreen;
@@ -279,6 +286,23 @@ p {
 
 }
 
+/*Condition section promo et logo */
+@if $large-screen {
+   
+    #pricebackground {
+
+        transform: translateX(275px); }
+
+      #carte {
+
+        margin-left: 250px;}
+
+        #logobackground {
+        
+           margin-left: 640px;}
+} 
+
+}
 
 
 
@@ -432,7 +456,7 @@ p {
    }
 
 
-   }
+   
 
 
 

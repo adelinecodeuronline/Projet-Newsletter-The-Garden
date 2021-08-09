@@ -1,4 +1,4 @@
-@media (min-width: 1200px) {
+@media (min-width: 740px) {
   /*Desktop version*/
   /*for logo and section*/
   /*for button*/
@@ -10,7 +10,7 @@
   }
   /*header*/
   .container {
-    width: 550px;
+    width: 55%;
     margin: auto;
     /*header section tondeuse*/
   }
@@ -148,7 +148,7 @@
     width: 168px;
     height: 121px;
     text-align: center;
-    margin-left: 430px;
+    margin-left: 160px;
     margin-top: -61px;
     padding: 0 30px;
     color: #213F26;
@@ -178,6 +178,16 @@
   .container2 #textecarte p #bold {
     font-weight: 600;
   }
+  #pricebackground {
+    -webkit-transform: translateX(275px);
+            transform: translateX(275px);
+  }
+  #carte {
+    margin-left: 250px;
+  }
+  /*#logobackground {
+    margin-left: 640px;
+  }*/
   /*Third section*/
   #bar2 {
     margin-top: 100px;
