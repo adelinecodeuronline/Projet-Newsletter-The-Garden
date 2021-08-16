@@ -1,6 +1,6 @@
-@media (min-width: 740px) {   /*Desktop version*/
+@media (min-width: 1200px) {   /*Desktop version*/
 
-$large-screen: "screen and (min-width: 1200px)";
+$large-screen: "(min-width: 1800px)";
 $medium-screen: "screen and (min-width: 740px)";
 
 
@@ -255,7 +255,7 @@ display: flex;
 
 #carte {
 
-    margin-left: 550px;
+    margin-left: 540px;
     transform: translateY(300px);
     width: auto;
 }
@@ -288,22 +288,23 @@ p {
 }
 
 /*Condition section promo et logo */
-/*@if $medium-screen {
+/*@if $large-screen {
    
     #pricebackground {
 
-        margin: 390px; }
+        transform: translateX(-560px);
+     }
 
       #carte {
 
-        margin-left: 250px;}
+        margin-left: 450px;}
 
         #logobackground {
-        
-          transform: translateX(160px); }
-} */
+        margin-left: 200px;
+          transform: translateX(360px); }
+} 
 
-}
+}*/
 
 
 
@@ -536,3 +537,4 @@ p {
 
 
 
+}

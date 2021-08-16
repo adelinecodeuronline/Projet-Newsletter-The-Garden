@@ -1,4 +1,4 @@
-@media (min-width: 740px) {
+@media (min-width: 1200px) {
   /*Desktop version*/
   /*for logo and section*/
   /*for button*/
@@ -149,7 +149,7 @@
     width: 168px;
     height: 121px;
     text-align: center;
-    margin-left: 450px;
+    margin-left: 280px;
     margin-top: -61px;
     padding: 0 30px;
     color: #213F26;
@@ -184,7 +184,7 @@
             transform: translateX(200px);
   }
   #carte {
-    margin-left: 250px;
+    margin-left: 150px;
   }
   /*#logobackground {
     margin-left: 640px;
@@ -321,7 +321,7 @@
 
   #logobackground {
    
-   margin-left: 790px;
+   margin-left: 590px;
    margin-right: -50px;
   }
 
